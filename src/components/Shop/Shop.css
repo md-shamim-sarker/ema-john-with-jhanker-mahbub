@@ -11,42 +11,6 @@
     gap: 1.5rem;
 }
 
-/* ---------------cart------------------ */
-.cart {
-    background-color: #FF99004D;
-    height: 100vh;
-    position: sticky;
-    top: 0;
-    padding: 1.5rem 1.5rem 0 1.5rem;
-}
-
-.cart h3 h4 {
-    margin: 0;
-    text-align: center;
-}
-
-.clear-btn {
-    width: 100%;
-    margin-top: 1rem;
-    padding: 0.6rem;
-    border: none;
-    color: white;
-    border-radius: 5px;
-    background-color: #c21d1d;
-}
-
-.review-btn {
-    width: 100%;
-    margin-top: 1rem;
-    padding: 0.6rem;
-    border: none;
-    color: white;
-    border-radius: 5px;
-    background-color: orangered;
-}
-
-/* ---------------cart------------------ */
-
 @media screen and (max-width: 768px) {
     .shop {
         grid-template-columns: 1fr;
