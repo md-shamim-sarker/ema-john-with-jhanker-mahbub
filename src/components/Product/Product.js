@@ -8,7 +8,7 @@ const Product = ({handleAddToCart, product}) => {
     const {img, name, seller, price, ratings} = product;
 
     return (
-        <div className='product'>
+        <div className='product' data-aos="zoom-in-down">
             <div className='product-info'>
                 <img src={img} alt="product_img" />
                 <h3>{name}</h3>
@@ -18,7 +18,7 @@ const Product = ({handleAddToCart, product}) => {
                 <p>Seller: {seller} <br />
                     Ratings: {ratings}</p>
                 <button onClick={() => handleAddToCart(product)}>
-                    <span>Add to Cart</span>
+                    <span>Add to Cart </span>
                     <FontAwesomeIcon icon={faCartShopping}></FontAwesomeIcon>
                 </button>
             </div>
